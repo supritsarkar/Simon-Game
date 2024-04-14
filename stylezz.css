@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+/* setting the colors of the boxes*/
+.yellow{
+ background-color:#f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0 ;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+/* this is flash class ,this class will get merged with the button which will be pressed by the user  */ 
+.flash{
+  background-color: white;
+}
+
+/* this class will be added to the button to show ,which button have preesed by the user  */ 
+.userflash{
+  background-color: green;
+}
